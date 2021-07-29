@@ -86,7 +86,7 @@ function setup() {
   ball = Bodies.circle(50,200,20);
   World.add(world,ball);
   
-  rope = new Rope(this.ball,{x:150,y:50});
+  rope = new Rope(this.ball,{x:200,y:50});
 
 }
 function draw() {
